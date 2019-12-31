@@ -1,0 +1,42 @@
+{
+    "name": "react-path-finding",
+    "version": "0.0.0",
+    "license": "MIT",
+    "main": "src/index.js",
+    "keywords": [
+        "React",
+        "Path finding"
+    ],
+    "description": "A react project for simple path finding testing",
+    "scripts": {
+        "start": "webpack-dev-server --open",
+        "restart": "webpack-dev-server",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@babel/node": "^7.2.0",
+        "@babel/plugin-proposal-class-properties": "^7.3.0",
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/preset-typescript": "^7.1.0",
+        "@types/react": "^16.7.13",
+        "babel-loader": "^8.0.5",
+        "css-loader": "^2.1.0",
+        "file-loader": "^3.0.1",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.29.3",
+        "webpack-cli": "^3.2.3",
+        "webpack-dev-server": "^3.1.14",
+        "webpack-serve": "^2.0.3"
+    },
+    "dependencies": {
+        "@material-ui/core": "^3.9.2",
+        "@material-ui/icons": "^3.0.2",
+        "material-ui-slider": "^3.0.0",
+        "onsenui": "^2.10.6",
+        "react": "^16.8.2",
+        "react-dom": "^16.8.2"
+    }
+}

@@ -1,0 +1,41 @@
+.gridContainer {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f6f8fa;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+        0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.grid {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+        0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.gridControls {
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.gridControls > * {
+    margin-right: 10px !important;
+}
+.gridControls > .searchData {
+    float: right;
+    height: 36px;
+}
+.gridControls > .info {
+    float: right;
+}
+
+.rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.rotate-45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

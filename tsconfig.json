@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2016",
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "jsxFactory": "React.element"
+    },
+
+    "exclude": ["node_modules", "**/node_modules/*"]
+}

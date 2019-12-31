@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "/Users/Sancarn/Documents/Programming/Github"
+		},
+		{
+			"path": "/Library/Ruby/Gems/2.3.0/gems/nokogiri-1.10.2"
+		},
+		{
+			"path": "/Users/Sancarn/Downloads/TrickAdvancedTools"
+		},
+		{
+			"path": "/Users/Sancarn/Documents/Programming/Github/VBA-STD-Library"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sancarn.github.io"
+	}
+}
