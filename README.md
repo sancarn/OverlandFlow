@@ -51,6 +51,7 @@ This is not a replacement for 2d hydraulic modelling. The above simulation assum
 
 * There is an infinite volume of water spilling from the source
 * 100% of the flow results in surface runoff, i.e. 0% of volume goes to depression storage.
+* Water has no inertia (or very low velocity). You can construct scenarios where momentum/inertia should carry water over a low point (e.g. syphons). This algorithm will not show good results in these cases unless the terrain provides no other alternative.
 
 This algorithm only provides an indication of which areas can flood. 
 
