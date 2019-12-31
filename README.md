@@ -1,6 +1,6 @@
 # OverlandFlow
 
-## [Demo](sancarn.github.io/OverlandFlow/build)
+## [Demo](http://sancarn.github.io/OverlandFlow/build)
 
 ![demo](./docs/demo.gif)
 
