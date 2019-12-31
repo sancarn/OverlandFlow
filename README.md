@@ -2,6 +2,8 @@
 
 ## [Demo](sancarn.github.io/OverlandFlow/build)
 
+![demo](./docs/demo.gif)
+
 This is a fork of TarVK's awesome [A* search web app](https://github.com/TarVK/TypeScript-React-path-finder).
 
 ## Long term project
