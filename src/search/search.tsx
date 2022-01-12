@@ -92,9 +92,9 @@ export default class Searcher extends React.Component<
         if (this.state.intervalTime == 0) {
             while (this.searching) this.searchStep();
         } else {
-            this.prevTime = Date.now();
             // Small startup delay
             setTimeout(() => {
+                this.prevTime = Date.now();
                 clearInterval(this.interval);
                 this.interval = setInterval(() => {
                     // Get the delta
@@ -106,7 +106,7 @@ export default class Searcher extends React.Component<
                     const steps = Math.floor(delta / this.state.intervalTime);
                     for (let i = 0; i < steps && this.searching; i++) this.searchStep();
                 }, this.state.intervalTime);
-            }, 5000);
+            }, 2000);
         }
     }
     protected endSearch(path: Path): void {
